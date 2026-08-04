@@ -9,6 +9,20 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.2</title>
+            <pubDate>Mon, 03 Aug 2026 23:57:08 -0700</pubDate>
+            <sparkle:version>11</sparkle:version>
+            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.2
+
+- Introduces a calmer Boca Libre identity built around an open speech bubble and a gentle breath wave.
+- Uses a monochrome menu-bar icon that automatically follows macOS light and dark appearance.
+- Keeps the new mark crisp and recognizable at small sizes.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.2/Boca-Libre-0.3.2.zip" length="2508097" type="application/octet-stream" sparkle:edSignature="KrpUkQuLXi8pVefvuZZDXh1PFnEkmCLkGxtNUmA9KUGiWWs4bxUIXGqjyss7JlDeyBv4d0INY14Kb+vjIDmbDQ=="/>
+        </item>
+        <item>
             <title>0.3.1</title>
             <pubDate>Mon, 03 Aug 2026 22:41:36 -0700</pubDate>
             <sparkle:version>10</sparkle:version>
@@ -41,6 +55,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: hW8xAL6yEkt4vZ2XLDfs1QzCOUEAim7CQ2+Y4Loli9l34ts4QWpR2crsjqULKPvTqgu7RvDpWmEglXvP7cjnBA==
-length: 2725
+edSignature: QgOQPB0K7pg96BmPHaApAS+4+xmldDtzXaSRZ9pR2xaaRmWLL7GbVQEwRRxhdb7DbKIBwEEXxbgEpGsVE+ulCg==
+length: 3700
 -->
