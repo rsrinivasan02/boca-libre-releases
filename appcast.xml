@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.1</title>
+            <pubDate>Mon, 03 Aug 2026 22:41:36 -0700</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>0.3.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.1
+
+- Keeps Boca Libre visible beside your Mac’s system controls instead of letting it disappear behind the display notch.
+- Reorganizes Settings into **Dictation**, **Controls**, and **Privacy** tabs.
+- Puts the shortcut and Normal Dictation/Radiology mode at the top of the first tab.
+- Makes the first privacy choice explicit: select an option, then save it.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.1/Boca-Libre-0.3.1.zip" length="4708077" type="application/octet-stream" sparkle:edSignature="uapOVc/8He3+jLxHExrWJdF0TcHQDg539QL8usBZP4cLvpnlFF+XHV/lviY2H01kmOSGF0AGth8+AYNVGG7pBA=="/>
+        </item>
+        <item>
             <title>0.3.0</title>
             <pubDate>Mon, 03 Aug 2026 21:40:06 -0700</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -26,6 +41,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: W6vMV9DwZuBOwcwGd6DDbgS0hZ+oXhwfrPIF5PrQHDV46k7mkeyRIxSxRcCRJLO0/xruW4/XoUgGY47MnFP+Cw==
-length: 1647
+edSignature: hW8xAL6yEkt4vZ2XLDfs1QzCOUEAim7CQ2+Y4Loli9l34ts4QWpR2crsjqULKPvTqgu7RvDpWmEglXvP7cjnBA==
+length: 2725
 -->
