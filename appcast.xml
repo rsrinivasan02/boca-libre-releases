@@ -1,13 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!-- sparkle-sign-warning:
 IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
---><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-  <channel>
-    <title>Boca Libre Updates</title>
-    <link>https://github.com/rsrinivasan02/boca-libre-releases/releases</link>
-    <description>Secure, signed updates for Boca Libre.</description>
-    <language>en</language>
-  </channel>
-</rss><!-- sparkle-signatures:
-edSignature: 5qUYxcI/QzFa+cxibg2lg/DxTeo8IkePkbOOjvOyVQPx5M2q7/aOVQrWwku7bYdM0wNgdszJkPxpCmEV8jCMBg==
-length: 625
+-->
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Boca Libre Updates</title>
+        <link>https://github.com/rsrinivasan02/boca-libre-releases/releases</link>
+        <description>Secure, signed updates for Boca Libre.</description>
+        <language>en</language>
+        <item>
+            <title>0.3.0</title>
+            <pubDate>Mon, 03 Aug 2026 21:40:06 -0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.0
+
+- Adds secure, signed in-app updates.
+- Lets you choose between update notifications, automatic downloads, or manual checks only.
+- Adds a **Check for Updates…** command to the Boca Libre menu.
+- Keeps all existing dictation, privacy, radiology, and correction-learning behavior.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.0/Boca-Libre-0.3.0.zip" length="4674752" type="application/octet-stream" sparkle:edSignature="xn7mNBDpVyotWGWrmvr+NONHFDgBECmtN0e3gE5RcYDIfWVXmTJqD1WlkL1VdNSm4qngPl5fdgoKOHCFZZcxDg=="/>
+        </item>
+    </channel>
+</rss>
+<!-- sparkle-signatures:
+edSignature: W6vMV9DwZuBOwcwGd6DDbgS0hZ+oXhwfrPIF5PrQHDV46k7mkeyRIxSxRcCRJLO0/xruW4/XoUgGY47MnFP+Cw==
+length: 1647
 -->
