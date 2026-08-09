@@ -9,6 +9,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.6</title>
+            <pubDate>Sun, 09 Aug 2026 10:20:21 -0700</pubDate>
+            <sparkle:version>15</sparkle:version>
+            <sparkle:shortVersionString>0.3.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.6
+
+- Starts the listening indicator only after microphone capture has actually begun, for both Apple and OpenAI transcription.
+- Buffers the opening words while the selected transcription engine initializes, removing visible startup latency without losing speech.
+- Drives the waveform directly from live microphone input so it never lags behind by replaying buffered audio levels.
+- Replaces the large listening message with a slimmer, draggable waveform capsule.
+- Shows an Apple-and-lock mark for private on-device transcription and a cloud mark for OpenAI transcription.
+- Gives Keychain items clear, user-visible names and explains whether access enables learned corrections or OpenAI cloud transcription.
+- Checks for a saved OpenAI key at startup without decrypting it; the key is read only when OpenAI transcription is used.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.6/Boca-Libre-0.3.6.zip" length="2633966" type="application/octet-stream" sparkle:edSignature="s4+gyP2t61rj8z8WyRSZEPwUH5OSozTIUJ30iM1j2Esn7jll8lBIMF1anfAKUQNZ+157j5xJ8vberDi2CZiyDQ=="/>
+        </item>
+        <item>
             <title>0.3.5</title>
             <pubDate>Sun, 09 Aug 2026 07:32:57 -0700</pubDate>
             <sparkle:version>14</sparkle:version>
@@ -71,24 +89,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.1/Boca-Libre-0.3.1.zip" length="4708077" type="application/octet-stream" sparkle:edSignature="uapOVc/8He3+jLxHExrWJdF0TcHQDg539QL8usBZP4cLvpnlFF+XHV/lviY2H01kmOSGF0AGth8+AYNVGG7pBA=="/>
         </item>
-        <item>
-            <title>0.3.0</title>
-            <pubDate>Mon, 03 Aug 2026 21:40:06 -0700</pubDate>
-            <sparkle:version>9</sparkle:version>
-            <sparkle:shortVersionString>0.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.0
-
-- Adds secure, signed in-app updates.
-- Lets you choose between update notifications, automatic downloads, or manual checks only.
-- Adds a **Check for Updates…** command to the Boca Libre menu.
-- Keeps all existing dictation, privacy, radiology, and correction-learning behavior.
-]]></description>
-            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.0/Boca-Libre-0.3.0.zip" length="4674752" type="application/octet-stream" sparkle:edSignature="xn7mNBDpVyotWGWrmvr+NONHFDgBECmtN0e3gE5RcYDIfWVXmTJqD1WlkL1VdNSm4qngPl5fdgoKOHCFZZcxDg=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: vwG6zt+rBcgnpfAgjM9d/ziGRRSjXfl7EzmsiZ2hJs/sTFUuqnBov2enAeXBw4hwuyDtTx6TfNFqkZ+q6DP3Dw==
-length: 6587
+edSignature: tvdoOcXF/DBLo/tF4upsqNYsCGwskx/Z1XXw9z3FXmP8HHGC/G4PZlbm/0TsySXqNk/K6OIyu6Otv3tVuzwzDA==
+length: 7136
 -->
