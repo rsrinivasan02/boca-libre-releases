@@ -9,6 +9,24 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.5</title>
+            <pubDate>Sun, 09 Aug 2026 07:32:57 -0700</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.5
+
+- Adds comprehensive study-specific profiles spanning neuro, spine, chest/cardiac, body imaging, ultrasound, genitourinary, MSK, breast, molecular imaging, vascular, fluoroscopy, and interventional radiology.
+- Adds an explicit top-100 term ranking for general radiology and every study profile; rank and tier now control Apple model weights and OpenAI hint order.
+- Uses Apple Dictation with a private, study-focused custom language model for Radiology mode on macOS 26 and newer.
+- Adds balanced normal/abnormal phrase patterns and high-yield reporting language without mixing unrelated study vocabularies.
+- Gives accepted personal corrections progressively more weight in the local Apple language model.
+- Prepares and caches custom models locally while keeping startup bounded and falling back safely if preparation is incomplete.
+- Removes derived language-model caches when personal corrections are cleared.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.5/Boca-Libre-0.3.5.zip" length="2618569" type="application/octet-stream" sparkle:edSignature="W8vczpXhSFl3XN9odBH5EV0/1Me8/IBg7BNrIciCq7X0PTuqenFWzGStppT3eL5tc1YV7rC66EhPFYIdOd8DAQ=="/>
+        </item>
+        <item>
             <title>0.3.3</title>
             <pubDate>Sat, 08 Aug 2026 09:27:42 -0700</pubDate>
             <sparkle:version>12</sparkle:version>
@@ -71,6 +89,6 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6OobS1VToE9KqAZXXkbrRi/lFDszstKbHmZon8AYnI95LDpNihz96MyzmUbdCQ8xceQGIzXr1/5k+VvW4SEdBQ==
-length: 4954
+edSignature: vwG6zt+rBcgnpfAgjM9d/ziGRRSjXfl7EzmsiZ2hJs/sTFUuqnBov2enAeXBw4hwuyDtTx6TfNFqkZ+q6DP3Dw==
+length: 6587
 -->
