@@ -9,6 +9,21 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.8</title>
+            <pubDate>Mon, 10 Aug 2026 09:29:46 -0700</pubDate>
+            <sparkle:version>17</sparkle:version>
+            <sparkle:shortVersionString>0.3.8</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.8
+
+- Removes the rectangular window outline that could appear around the slender dictation capsule.
+- Uses the surrounding editor text more reliably when deciding capitalization at the cursor.
+- Keeps inserted phrases such as “for example” lowercase when they continue an existing sentence.
+- Preserves normal capitalization when dictation starts in a genuinely empty field.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.8/Boca-Libre-0.3.8.zip" length="2702156" type="application/octet-stream" sparkle:edSignature="rwAnEzgosVbt3F5wZ99t+qiqWNvQLA8tKBCfeWyQJy5S5q4lw6vXkFI4zkWhsRxHVRn76WwCcOoLNT0tBQ1PBA=="/>
+        </item>
+        <item>
             <title>0.3.7</title>
             <pubDate>Sun, 09 Aug 2026 17:59:47 -0700</pubDate>
             <sparkle:version>16</sparkle:version>
@@ -79,23 +94,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.3/Boca-Libre-0.3.3.zip" length="2523134" type="application/octet-stream" sparkle:edSignature="Txm/zKT0UYMsc2XaMLhBPyb3BFfGFINQT6htQIktpWy/qCsnXUZo5YZxmpJilaY0CrbL6etikndMP5MiZmtvAw=="/>
         </item>
-        <item>
-            <title>0.3.2</title>
-            <pubDate>Mon, 03 Aug 2026 23:57:08 -0700</pubDate>
-            <sparkle:version>11</sparkle:version>
-            <sparkle:shortVersionString>0.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.2
-
-- Introduces a calmer Boca Libre identity built around an open speech bubble and a gentle breath wave.
-- Uses a monochrome menu-bar icon that automatically follows macOS light and dark appearance.
-- Keeps the new mark crisp and recognizable at small sizes.
-]]></description>
-            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.2/Boca-Libre-0.3.2.zip" length="2508097" type="application/octet-stream" sparkle:edSignature="KrpUkQuLXi8pVefvuZZDXh1PFnEkmCLkGxtNUmA9KUGiWWs4bxUIXGqjyss7JlDeyBv4d0INY14Kb+vjIDmbDQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 6lqCN2u6pLuX4a8eRMMqy0xvLf7iiDMPIsmGCZDY5nBZFbINcQccESmdmi9Q9ySI3AuuBQMp+WBz/pEfRFvFAQ==
-length: 7412
+edSignature: kdg8aJCBfaztpwVt/Zd7Ikuf3ZRONjpql2RdIIjf/LTRBJFuLAQHU7HqA7ncWO15zs/guE78lr+93qrAa9xzDA==
+length: 7531
 -->
