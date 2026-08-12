@@ -9,6 +9,23 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
         <description>Secure, signed updates for Boca Libre.</description>
         <language>en</language>
         <item>
+            <title>0.3.10</title>
+            <pubDate>Wed, 12 Aug 2026 12:30:20 -0700</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>0.3.10</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.10
+
+- Preserves the words around your cursor when inserting dictation in Google Docs, including one-letter words such as “a.”
+- Improves context-aware spacing, capitalization, and punctuation across Google Docs, Google Sheets, Claude, ChatGPT, and standard Mac text fields.
+- Prevents stray characters and truncated output in browser-based editors.
+- Loads a saved OpenAI API key when Boca Libre starts, so pressing Right Option never interrupts dictation with a Keychain prompt.
+- Lets you switch between Apple on-device and OpenAI cloud transcription from the persistent capsule while it is idle.
+- Adds optional retake cleanup that keeps your corrected phrasing when you restate yourself.
+]]></description>
+            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.10/Boca-Libre-0.3.10.zip" length="2855394" type="application/octet-stream" sparkle:edSignature="mwAlnuFfMQqsir89Ze37kpXGGZzrDzxcNj8SPykGCJzs2knKva8Gp8ymzMuCL2b8lcgOdQtk7VM4WFp4FhSQCw=="/>
+        </item>
+        <item>
             <title>0.3.9</title>
             <pubDate>Mon, 10 Aug 2026 11:06:11 -0700</pubDate>
             <sparkle:version>18</sparkle:version>
@@ -75,27 +92,9 @@ IMPORTANT: This file was signed by Sparkle. Any modifications to this file requi
 ]]></description>
             <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.6/Boca-Libre-0.3.6.zip" length="2633966" type="application/octet-stream" sparkle:edSignature="s4+gyP2t61rj8z8WyRSZEPwUH5OSozTIUJ30iM1j2Esn7jll8lBIMF1anfAKUQNZ+157j5xJ8vberDi2CZiyDQ=="/>
         </item>
-        <item>
-            <title>0.3.5</title>
-            <pubDate>Sun, 09 Aug 2026 07:32:57 -0700</pubDate>
-            <sparkle:version>14</sparkle:version>
-            <sparkle:shortVersionString>0.3.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <description sparkle:format="markdown"><![CDATA[# Boca Libre 0.3.5
-
-- Adds comprehensive study-specific profiles spanning neuro, spine, chest/cardiac, body imaging, ultrasound, genitourinary, MSK, breast, molecular imaging, vascular, fluoroscopy, and interventional radiology.
-- Adds an explicit top-100 term ranking for general radiology and every study profile; rank and tier now control Apple model weights and OpenAI hint order.
-- Uses Apple Dictation with a private, study-focused custom language model for Radiology mode on macOS 26 and newer.
-- Adds balanced normal/abnormal phrase patterns and high-yield reporting language without mixing unrelated study vocabularies.
-- Gives accepted personal corrections progressively more weight in the local Apple language model.
-- Prepares and caches custom models locally while keeping startup bounded and falling back safely if preparation is incomplete.
-- Removes derived language-model caches when personal corrections are cleared.
-]]></description>
-            <enclosure url="https://github.com/rsrinivasan02/boca-libre-releases/releases/download/v0.3.5/Boca-Libre-0.3.5.zip" length="2618569" type="application/octet-stream" sparkle:edSignature="W8vczpXhSFl3XN9odBH5EV0/1Me8/IBg7BNrIciCq7X0PTuqenFWzGStppT3eL5tc1YV7rC66EhPFYIdOd8DAQ=="/>
-        </item>
     </channel>
 </rss>
 <!-- sparkle-signatures:
-edSignature: 9q6KOwdWVs0acS309XdaXR2hVguvfbn+QoWrTRVkZAIYAFh26+MzZtiwm+Kqw/uJpfIgqnuPZGyNXwiKMARzDA==
-length: 7435
+edSignature: p/IytGfCerKE+mzoblfvQFUnhPF4aDf79ivAnddXp39d8NfnXHq+LlAbAEsobI0kdVIiCNpNhV/QIdbJvBaqAg==
+length: 7217
 -->
